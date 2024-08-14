@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Welcome to Khnalal Mobile shop. We have latest mobile phone and smart watches as well as we can provice googles.
+    we can provide other services such as repairing and maintenance.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Khanal Mobile Shop</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="./index.html"><img class="logo-img" src="./images/headerLogo/logo-img.jpg" alt="Please waite.."></a>
+      <a href="./index.html" class="logo-name">
+        <h1>khanal mobile center</h1>
+      </a>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="./index.html" class="home">Home</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="./cart.html" class="icon"><i class="fa-solid fa-cart-shopping"> 0 </i></a></li>
+      </ul>
+    </nav>
+    <nav class="navbar" id="security">
+      <ul>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#signup">sigin up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section-contact">
+    <div class="contact-container" id="contact">
+        <div class="contact-form">
+            <form class="form" action="https://formspree.io/f/xpwaabqv" method="POST">
+
+                <div class="name-email">
+                    <div class="name">
+                        <input type="text" id="name" name="name" class="nameEmail" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="email">
+                        <input type="email, tel" id="email-contact" name="email-cotact"
+                           class="nameEmail" placeholder="Enter Your Email or Phone number" required>
+                    </div>
+                </div>
+
+                <div class="contact-message">
+                    <textarea name="message" placeholder="Tell us what you want?"></textarea>
+                </div>
+
+                <div class="button">
+                    <input type="submit" id="submit-btn" class="btn-submit">
+                </div>
+            </form>
+        </div>
+
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645.5385524789442!2d82.76102361131159!3d27.84008852474775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3997af0066158d11%3A0x68abf7d3d92d14ac!2sBhalubang%20dang!5e0!3m2!1sen!2snp!4v1719397352520!5m2!1sen!2snp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
+        </div>
+    </div>
+</section>
+
+<footer>
+  <div class="parent-footer">
+
+    <div class="shoping-footer">
+      <h2>Servicess</h2>
+      <ul class="list shoping-list">
+        <li>Mobile Phone</li>
+        <li>Mobile Repair</li>
+        <li>Smart Watch</li>
+        <li>Head Phones</li>
+      </ul>
+    </div>
+
+    <div class="experience-footer">
+      <h3>Experience</h3>
+      <ul class="list experience-list">
+        <li>Delivery</li>
+        <li>Contact Us</li>
+        <li>Payment Method</li>
+        <li>Return and Exchange</li>
+      </ul>
+    </div>
+
+    <div class="newlettr-footer">
+      <h4>News Letter</h4>
+      <p class="news-letter">
+        Be the first to know about latest products and other servoces
+      </p>
+      <input type="email" id="submit-btn" placeholder="your email address">
+    </div>
+  </div>
+
+  <p class="copyRight">&copy; 2024 Khanal Mobile Center. All Right Reserved</p>
+</footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
