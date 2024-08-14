@@ -3,10 +3,10 @@ export const showToast = (operation, name) => {
     toast.classList.add("notification");
 
     if (operation === "add") {
-        toast.innerText = `${name} product has been added sucessfully.`
-        console.log(`${name} product has been added.`);
+        toast.innerText = `${name} added sucessfully.`
+        // console.log(`${name} product has been added.`);
     }
-    toast.innerText = `${name} product has been deleted sucessfully.`;
+    toast.innerText = `${name} deleted sucessfully.`;
     document.body.appendChild(toast);
 
     setTimeout(() => {
