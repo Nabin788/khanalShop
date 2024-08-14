@@ -5,7 +5,7 @@ export const showToast = (operation, name) => {
     if (operation === "add") {
         toast.innerText = `${name} added sucessfully.`
         // console.log(`${name} product has been added.`);
-    }
+    } else
     toast.innerText = `${name} deleted sucessfully.`;
     document.body.appendChild(toast);
 
