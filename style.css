@@ -25,6 +25,9 @@ body {
       rgba(0, 0, 255, 0.5)), url(./images/body-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 
@@ -382,6 +385,7 @@ footer {
   background-color: var(--main-color);
   padding: 0.5rem;
   color: var(--white-color);
+  margin-top: auto;
 }
 
 footer .parent-footer {
@@ -472,8 +476,9 @@ footer .copyRight {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0.4rem;
+  margin: 1rem;
   height: 5rem;
+  margin-top: auto;
 }
 
 .cart-total {
@@ -650,8 +655,9 @@ iframe {
   .section-contact {
     padding: 1rem;
   }
+
   .contact-container {
     gap: 1rem;
   }
-  
+
 }
